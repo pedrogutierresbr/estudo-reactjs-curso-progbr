@@ -42,3 +42,7 @@ yarn build
 -   Erros do cliente (400-499)
 
 -   Erros do servidor (500-599)
+
+## Métrodos de Ciclo de Vida
+
+[https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true]
