@@ -7,7 +7,7 @@ Terminal
 ```
 cd <pasta de destino>
 
-npx create-react-app
+npx create-react-app <nome do projeto>
 
 npm start
 ```
