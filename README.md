@@ -45,4 +45,4 @@ yarn build
 
 ## Métrodos de Ciclo de Vida
 
-![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true)
+![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true)
