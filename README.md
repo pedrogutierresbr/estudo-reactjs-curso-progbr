@@ -46,3 +46,19 @@ yarn build
 ## Métrodos de Ciclo de Vida
 
 ![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true)
+
+### Principais Hooks disponíveis
+
+-   Hooks Básicos
+
+    -   useState()
+    -   useEffect()
+    -   useContext()
+
+-   Hooks Adicionais
+    -   useReducer()
+    -   useCallback()
+    -   useMemo()
+    -   useRef()
+    -   useImperativeHandle()
+    -   useLayoutEffect()
