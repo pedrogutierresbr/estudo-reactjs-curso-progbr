@@ -1,7 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Counter(props) {
     const [count, setCount] = useState(props.count);
+
+    useEffect(() => {
+        setCount(parseInt(localStorage.getItem("count")));
+
+        return () => {
+            // esse return esta fazendo o papel que o componentWillUnmount faria
+            console.log("Não existe mais contador | componentWillUnmount foi chamado");
+        };
+    }, []); // com o [] quer dizer que vai ser executado uma unica vez
+
+    useEffect(() => {
+        document.title = count;
+        localStorage.setItem("count", count);
+    }, [count]); // com o [estado] quer dizer que vai ser executado sempre que o estado sofrer alteração
 
     function increase() {
         setCount(count + 1);

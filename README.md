@@ -51,8 +51,8 @@ yarn build
 
 -   Hooks Básicos
 
-    -   useState()
-    -   useEffect()
+    -   useState() -----------------------------(equivalente ao gerenciamento de estado do componente)
+    -   useEffect() ----------------------------(equivalente ao componentDidMount e componentDidUpdate)
     -   useContext()
 
 -   Hooks Adicionais
