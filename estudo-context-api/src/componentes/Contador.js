@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { ContadorContexto } from "./ContadorContexto";
 
 function Contador(props) {
