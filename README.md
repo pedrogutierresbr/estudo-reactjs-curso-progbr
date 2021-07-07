@@ -62,3 +62,7 @@ yarn build
     -   useRef()
     -   useImperativeHandle()
     -   useLayoutEffect()
+
+## Redux Flow
+
+![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/redux_flow.jpg?raw=true)
