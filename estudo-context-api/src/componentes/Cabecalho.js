@@ -14,6 +14,6 @@ function Cabecalho(props) {
 export default Cabecalho;
 
 /* 
-Para ter acesso ao extado criado, basta importalo pelo hooks de useContext e passar 
+Para ter acesso ao estado criado, basta importalo pelo hooks de useContext e passar 
 o contexto criado criado entre (). Lembre-se de importar o contexto la no import....
 */
