@@ -63,7 +63,7 @@ yarn build
     -   useImperativeHandle()
     -   useLayoutEffect()
 
-## Redux Flow
+## Redux
 
 Redux é um container para controle e gerenciamento de estado global de aplicações JavaScript baseado na arquitetura Flux (tem o propósito de solucionar o problema de compartilhamento de estados entre componentes, tornando-o unidirecional). Redux é uma solução para compartilhamento de estados entre vários componentes diferentes, tornando isso muito fácil, previsível e rápido.
 
@@ -75,4 +75,31 @@ Redux é um container para controle e gerenciamento de estado global de aplicaç
 
 ```terminal
 npm install redux
+```
+
+## redux-thunk
+
+Por padrão, as ações do Redux são enviadas de forma síncrona, o que é um problema para todos os aplicativos não triviais que precisam se comunicar com uma API externa ou executar efeitos colaterais. O Redux também permite que middleware fique entre uma ação sendo despachada e a ação que atinge os redutores.
+
+Thunk (conversão) é um conceito de programação onde uma função é usada para atrasar a avaliação/cálculo de uma operação.
+
+O Redux Thunk é um middleware que permite chamar criadores de ação que retornam uma função em vez de um objeto de ação. Essa função recebe o método de expedição do armazenamento, que é usado então para expedir ações síncronas regulares dentro do corpo da função assim que as operações assíncronas forem concluídas.
+
+_Veja a palicação como exemplo_
+
+```terminal
+npm install redux
+
+npm install redux-thunk
+
+npm install node-fetch --> como estamos usando o node para rodas a aplicação é necessário intallar o fetch. Quando usado com o reactjs não precisa
+```
+
+```javascript
+const { createStore, applyMiddleware } = require("redux");
+const thunk = require("redux-thunk").default;
+const fetch = require("node-fetch");
+
+//Store -- Para usar o thunk precisa inserir o Middleware
+const store = createStore(ListReducer, applyMiddleware(thunk));
 ```
