@@ -65,4 +65,13 @@ yarn build
 
 ## Redux Flow
 
+Redux é um container para controle e gerenciamento de estado global de aplicações JavaScript baseado na arquitetura Flux (tem o propósito de solucionar o problema de compartilhamento de estados entre componentes, tornando-o unidirecional). Redux é uma solução para compartilhamento de estados entre vários componentes diferentes, tornando isso muito fácil, previsível e rápido.
+
+![Link para ler a respeito](https://blog.geekhunter.com.br/redux-um-tutorial-pratico-e-simples/)
+
 ![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/redux_flow.jpg?raw=true)
+
+```terminal
+npm install redux
+
+```
