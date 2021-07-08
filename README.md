@@ -75,5 +75,4 @@ Redux é um container para controle e gerenciamento de estado global de aplicaç
 
 ```terminal
 npm install redux
-
 ```
