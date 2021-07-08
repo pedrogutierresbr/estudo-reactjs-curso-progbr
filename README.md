@@ -91,7 +91,7 @@ Criar um novo item de tarefa pendente normalmente envolve primeiro expedir uma a
 
 [Para ler a respeito](https://www.digitalocean.com/community/tutorials/redux-redux-thunk-pt)
 
-**Veja a aplicação como exemplo**
+**Veja a aplicação feita em _redux-Thunk-study_ pare ter exemplo de como utilizar**
 
 ```terminal
 npm install redux
