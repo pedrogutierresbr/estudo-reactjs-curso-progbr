@@ -1,12 +1,15 @@
-import React, { useContext } from "react";
-import { ContadorContexto } from "./ContadorContexto";
+import React from "react";
+import { useSelector } from "react-redux";
 
 function Cabecalho(props) {
-    const [contagem] = useContext(ContadorContexto);
+    const contador = useSelector((state) => {
+        return state;
+    });
+
     return (
         <div className="cabecalho">
             <h3>Contador</h3>
-            <div>{contagem}</div>
+            <div>{contador}</div>
         </div>
     );
 }

@@ -109,3 +109,9 @@ const fetch = require("node-fetch");
 //Store -- Para usar o thunk precisa inserir o Middleware
 const store = createStore(ListReducer, applyMiddleware(thunk));
 ```
+
+## React-Redux
+
+```terminal
+npm install redux react-redux
+```
