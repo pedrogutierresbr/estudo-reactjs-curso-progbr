@@ -47,7 +47,7 @@ yarn build
 
 ![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true)
 
-### Principais Hooks disponíveis
+### Principais Hooks disponíveis no REACT
 
 -   Hooks Básicos
 
@@ -121,3 +121,19 @@ npm install redux react-redux
 ```terminal
 npm install react-router-dom
 ```
+
+### Criando e lidando com rotas
+
+-   BrowserRouter
+-   Switch
+-   Route (usar atributo path)
+-   Link
+
+### Principais Hooks disponíveis no React-Router
+
+-   Hooks
+
+    -   useRouteMatch
+    -   useParams
+    -   useLocation
+    -   customHook (esse voce cria com function e pode usar outros hooks dentro)
