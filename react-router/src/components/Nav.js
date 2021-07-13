@@ -16,6 +16,9 @@ export default function Nav(props) {
                 <li>
                     <Link to="/sobre">Sobre</Link>
                 </li>
+                <li>
+                    <Link to="/assistir">Assistir</Link>
+                </li>
             </ul>
         </nav>
     );

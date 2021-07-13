@@ -6,6 +6,7 @@ import Aula from "./components/Aula";
 import Aulas from "./components/Aulas";
 import Nav from "./components/Nav";
 import Sobre from "./components/Sobre";
+import Assistir from "./components/Assistir";
 
 // BrowserRouter --> responsavel por gerenciar as rotas e saber o que cada uma deve fazer
 // Route --> Componente responsavel por criar uma rota
@@ -27,12 +28,12 @@ function App() {
                     <Route path="/aulas">
                         <Aulas />
                     </Route>
+                    <Route path="/assistir">
+                        <Assistir />
+                    </Route>
                     <Route path="/">
                         <Home />
                     </Route>
-                    {/* <Route path="*">
-                        <div className="page"> Error 404 - Page not found</div>
-                    </Route> */}
                 </Switch>
             </div>
         </Router>
