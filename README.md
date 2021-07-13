@@ -115,3 +115,9 @@ const store = createStore(ListReducer, applyMiddleware(thunk));
 ```terminal
 npm install redux react-redux
 ```
+
+## React-Router
+
+```terminal
+npm install react-router-dom
+```
