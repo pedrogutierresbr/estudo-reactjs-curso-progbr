@@ -1,4 +1,4 @@
-# Anotações sobre REACT JS curso geek university
+# Anotações sobre REACT JS curso programdor br
 
 ## Criando projeto REACT
 
