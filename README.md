@@ -43,7 +43,7 @@ yarn build
 
 -   Erros do servidor (500-599)
 
-## Métrodos de Ciclo de Vida
+## Métodos de Ciclo de Vida
 
 ![Desktop Layout](https://github.com/pedrogutierresbr/reactjs-curso-progbr/blob/main/1.imagesToReadme/Diagrama+do+Ciclo+de+Vida.png?raw=true)
 
