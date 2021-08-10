@@ -1,4 +1,4 @@
-# Anotações sobre REACT JS curso programdor br
+# Anotações sobre REACT JS curso programador br
 
 ## Criando projeto REACT
 
